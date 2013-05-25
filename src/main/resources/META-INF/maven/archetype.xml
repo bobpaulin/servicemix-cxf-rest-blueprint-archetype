@@ -1,0 +1,12 @@
+<archetype>
+  <id>servicemix-cxf-rest-blueprint-archetype</id>
+  <sources>
+    <source>src/main/java/__serviceName__Service.java</source>
+  </sources>
+  <testSources>
+    <source>src/test/java/__serviceName__ServiceTest.java</source>
+  </testSources>
+  <resources>
+  	<resource>src/main/resources/OSGI-INF/blueprint/rest.xml</resource>
+  </resources>
+</archetype>
